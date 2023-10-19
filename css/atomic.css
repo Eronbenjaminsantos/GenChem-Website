@@ -1,0 +1,86 @@
+.atomic-content {
+    width: 100%;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-top: 100px;
+}
+
+.atomic-content .title {
+    text-align: center;
+    color: var(--skin-color);
+    font-weight: 900;
+    font-size: 50px;
+    line-height: 50px;
+
+}
+.atomic-content .title1 {
+    text-align: center;
+    color: var(--skin-color);
+    font-weight: 900;
+    font-size: 50px;
+    line-height: 50px;
+    padding-top: 100px;
+
+}
+.atomic-content .pre-title{
+    text-align: center;
+    color: var(--text-black-900);
+    font-weight: 900;
+    font-size: 30px;
+    line-height: 50px;
+}
+.atomic-content .contents::before {
+    content: '';
+    width: 200px;
+    height: 3px;
+    background-color: var(--skin-color);
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+}
+.atomic-content .contents{
+    line-height: 50px;
+    color: var(--text-black-900);
+    font-size: 35px;
+    position: relative;
+    display: inline-block;
+    padding-top: 100px;
+    font-weight: 900;
+}
+.atomic-content .meaning{
+    color: var(--text-black-700);
+    padding-top: 35px;
+    font-size: 20px;
+}
+.text-container {
+    text-align: right;
+}
+.atomic-content .meaning span{
+    font-weight: 900;
+    font-size: 25px;
+}
+.atomic-content .imgs img {
+    width: 100%;
+    height: auto;
+    display: inline-block; /* Make sure the image is an inline-block element */
+}
+.atomic-container1 {
+    display: flex; /* Use flexbox for layout */
+    width: 85%;
+}
+.subs1{
+    font-size: 15px;
+    color: var(--text-black-900);
+    text-align: center;
+  }
+.atm-info{
+    font-size: 25px;
+    line-height: 45px;
+    color: var(--text-black-900);
+}
+.infs{ 
+    margin-top: 100px;
+}
+.sketchfab-embed-wrapper {
+    flex: 1;
+}
